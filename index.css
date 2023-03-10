@@ -1,0 +1,35 @@
+.img
+{
+    width: 300px;
+    height: max-content;
+    transition: all 1.5s;
+    border-radius: 5px ; overflow: hidden;
+}
+
+.img:hover
+{
+    width: 800px;
+}
+
+img 
+{
+    max-width:  100%;
+}
+
+body
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(168, 49, 168);
+}
+
+h1
+{
+    font-family: calibri;
+    color: rgb(131, 216, 249);
+}
+
+
